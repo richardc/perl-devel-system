@@ -12,6 +12,5 @@ Module::Build
              'String::ShellQuote' => 0,
          },
          create_makefile_pl => 'passthrough',
-         sign => 1,
        )
   ->create_build_script;
